@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="css/all.min.css">
+  
+  <title>Frontend Mentor | Order summary card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+ 
+    .card { font-size: 11px; text-align: center; 
+    width: 400px;margin: auto 
+    ;
+    background-color: white;
+    padding-bottom: 30px;
+   }
+  
+     img{
+      width: 100%;
+      max-width: 100%;
+      height: 300px;
+    }
+    body{
+      background-color: #BDC7C9;
+    }
+    .text{
+      text-align: center;
+    }
+    .text h2{
+      font-size: 40px;
+      margin: 0px;
+      color:#333C83;
+      text-transform: capitalize;
+    }
+    .text p{
+      font-size: 20px;
+     color:#7C99AC;
+    }
+    i{
+      font-size: 20px;
+      color:#7C99AC;
+      background-color:#D3DEDC;
+      border-radius: 50%;
+      padding:20px
+    }
+    .plan{
+      display: flex;
+      justify-content: space-between;
+      padding: 10px;
+      background-color:#F5F5F5;
+      border-radius: 20px;
+      margin: 30px;
+      align-items: center;
+    }
+    .plan span:first-child{
+      display: block;
+      color:#333C83;
+      font-size: 18px;
+    }
+    .plan span:nth-child(2){
+      color: #777;
+      font-size: 18px;
+    }
+    .plan a{
+      display: block;
+      text-decoration: none;
+         color:#333C83;
+         font-size: 20px;
+
+
+    }
+       .card > a{
+   display: block;
+      text-decoration: none;
+      font-size: 20px;
+      color: #7C99AC;
+      
+     }
+    input{
+      border: none;
+      font-size: 25px;
+      color:white;
+    display: inline-block;
+    width: calc(100% - 60px);
+      background-color: #333C83;
+      border-radius: 10px;
+      margin: 30px;
+      padding-top: 10px;
+      padding-bottom: 10px;
+          box-shadow: 2px 4px 19px #BDC7C9
+
+    }
+  </style>
+</head>
+<body>
+<!-- 
+  Order Summary
+
+  You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!
+
+  Annual Plan
+  $59.99/year
+
+  Change
+
+  Proceed to Payment
+  Cancel Order -->
+  <div class="card">
+  <img src="images/illustration-hero.svg">
+  <div class="text">  <h2> Order Summary</h2> 
+   <p>  You can now listen to millions of songs, audiobooks, and podcasts on any 
+  device anywhere you like!</p></div>
+ 
+<div class="plan">
+<i class="fa-solid fa-music"></i>
+<div>
+  <span>  Annual Plan</span>
+  <span> $59.99/year</span>
+</div>
+<a href="">change</a>
+</div>
+<input type="button" value="Proceed to Payment">
+<a href=""> Cancel Order </a>
+  </div>
+ 
+  
+ 
+ 
+</body>
+</html>
